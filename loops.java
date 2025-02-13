@@ -8,7 +8,7 @@ public class loops {
 
    String name = "";
    while(name.isEmpty()){
-    System.out.println("enter your name:");
+    System.out.print("enter your name:");
     name = scanner.nextLine();
    }
    System.out.println("hello " + name);
